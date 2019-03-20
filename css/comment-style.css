@@ -1,0 +1,22 @@
+.comment{
+    position:relative;
+    list-style:none;
+}
+
+.comment::before{
+    content:'';
+    width:4px;
+    height:100%;
+    background:#3498db;
+    position:absolute;
+    top:0;
+    right:15px;
+   z-index:3; 
+    }
+
+.up{
+    z-index:4;
+    }
+ol{
+   list-style:none; 
+}

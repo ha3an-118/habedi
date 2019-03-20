@@ -1,0 +1,19 @@
+
+@import url("css/flatColor.css");
+*{
+padding:0;
+margin:0;
+font-family:yekan;
+}
+body{
+direction:rtl;
+}
+.direct-ltr{
+    direction:ltr !important;
+}
+.direct-rtl{
+    direction:rtl !important;
+}
+a:hover{
+    text-decoration:none !important;
+}
